@@ -5,7 +5,7 @@ $result = $conn->query($sql);
 if ($result===true){
 	echo "success";
 	} else {
-	echo "Failed" . $conn->connect_failed;
+	echo "Failure" . $conn->connect_failed;
 	}
 $conn->close();
 ?>
